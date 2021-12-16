@@ -21,7 +21,7 @@ namespace lab.work._10
             // запускает метод Reward() и возвращает кортеж.
         }
 
-        public void Reward(ref (Student, Student) result)
+        void Reward(ref (Student, Student) result)
         {
             result.Item1.CountLunch += 1;
             result.Item2.CountLunch -= 1;

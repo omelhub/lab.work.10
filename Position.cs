@@ -8,8 +8,8 @@ namespace lab.work._10
 {
     enum Position
     {
-        Preschooler,
+        Highschooler,
         Elementaryschooler,
-        Highschooler
+        Preschooler
     }
 }
